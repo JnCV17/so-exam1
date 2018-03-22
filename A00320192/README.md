@@ -14,7 +14,11 @@
 2. En la misma pagina, acceder a MD5SUMS para obtener los valores MD5 del archivo ISO de Debian.
 3. Una vez finalizada la descarga, realizar la validación (MD5, SHA-1, SHA-256 o SHA-512) y comparar sus resultados
 
-Nota: Para esta validación se uso el siguiente comando "md5 archivo.iso | grep valorMD5 " en el sistema operativo macOS High Sierra
+Nota: Para esta validación se uso el siguiente comando en el sistema operativo macOS High Sierra
+
+``` sh
+md5 archivo.iso | grep valorMD5
+```
 
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotValidacion.png)
 
@@ -79,5 +83,23 @@ Nota: Para esta validación se uso el siguiente comando "md5 archivo.iso | grep 
 30. Una vez finalizada la instalacion, el sistema desplegara un mensaje indicando que el procedimiento fue exitoso. Presionamos continuar (si no lo hace automaticamente) y el instalador finalizara, reiniciando la maquina virtual
 
 31. Una vez reinicie la maquina virtual, el sistema iniciara mostrando el usuario que creo anteriormente indicando que el sistema esta listo para ser usado y ha finalizado la instalacion correctamente.
+
+Nota: Para consultar informacion del sistema operativo se usaron los siguientes comandos:
+
+``` sh
+cat /etc/debian_version
+```
+
+``` sh
+lsb_release -a
+```
+
+``` sh
+uname -a
+```
+
+``` sh
+uname -r
+```
 
 
