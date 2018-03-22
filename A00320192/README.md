@@ -143,7 +143,7 @@ StrictModes yes
 
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotSSH.png)
 
-**Instalación Git y Tig en Debian 9*
+**Instalación Git y Tig en Debian 9**
 
 1. Por medio de Terminal y SSH a la maquina virtual Debian, corremos el siguiente comando para instalar git.
 
@@ -177,6 +177,10 @@ tig
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotInstallTig.png)
 
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotTigCommits.png)
+
+**Exportar maquina virtual Debian 9**
+
+
 
 
 
