@@ -102,4 +102,4 @@ uname -a
 uname -r
 ```
 
-
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotInfoDebian.png)
