@@ -143,6 +143,47 @@ StrictModes yes
 
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotSSH.png)
 
+**Instalación Git y Tig en Debian 9*
+
+1. Por medio de Terminal y SSH a la maquina virtual Debian, corremos el siguiente comando para instalar git.
+
+``` sh
+apt-get install git
+```
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotInstallGit.png)
+
+2. Una vez instalado git, nos dirigimos a la carpeta tmp para clonar un repositorio de github que contiene a Tig (https://github.com/jonas/tig.git) usando el siguiente comando
+
+``` sh
+git clone https://github.com/jonas/tig.git
+```
+
+3. Despues de realizar el clon del repositorio en la carpeta tmp, accedemos a la carpeta tig y alli instalamos un compilador de C para construir los archivos y ejecutar tig usando los siguientes comandos:
+
+``` sh
+apt-get install build-essential
+apt-get install libncurses5-dev libncursesw5-dev
+```
+``` sh
+make
+```
+``` sh
+make install
+```
+``` sh
+tig
+```
+
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotInstallTig.png)
+
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotTigCommits.png)
+
+
+
+
+
+
+
 
 
 
