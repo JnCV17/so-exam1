@@ -106,17 +106,44 @@ uname -r
 
 **Configuración de adaptador puente y conexión SSH**
 
-Es probable que durante la instalación de Debian 9 se haya configurado automaticamente una red de tipo NAT entre la maquina virtual y la maquina Host. Por lo tanto se configurara un nuevo adaptador de red para este proposito.
-
 1. Con la maquina virtual apagada, en "Ajustes", nos dirigimos a la pestaña "Red"
 2. En la pestaña "Red", seleccionamos "Adaptador 1" que es la interfaz de red que se encuentra activa por defecto.
 3. Cambiamos la opción de "NAT" a "Adaptador Puente" y seleccionamos a que puerto se conectara, Ethernet o WiFi. En este caso sera WiFi (AirPort).
+
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotDebianNetConfig.png)
+
+
 4. Iniciamos la maquina virtual.
 5. Iniciamos Terminal en la maquina Debian
 6. Haciendo uso del comando "ip a" obtenemos la información de las interfaces de red disponibles. Para el caso la interfaz enp0s3
 7. Con la información obtenida de las interfaces de red, podemos intentar hacer una conexion por SSH a la maquina Debian. Al intentar una conexion, si no esta instalado el modulo de SSH en Debian, la conexion sera rechazada. Por lo tanto, instalaremos SSH en la maquina virtual.
+
+``` sh
+apt-get install openssh-server --no-install-recommends
+```
+
 8. Una vez instalado openssh, modificamos su configuracion para poder acceder a modo root desde SSH y reiniciamos el servicio una vez modificado el archivo.
+
+``` sh
+vim /etc/ssh/sshd_config
+```
+
+``` sh
+# Authentication:
+ 
+LoginGraceTime 2m
+#PermitRootLogin prohibit-password
+PermitRootLogin yes
+StrictModes yes
+#MaxAuthTries 6
+#MaxSessions 10
+```
+
 9. Debido a que el sistema operativo Host es macOS, nos dirigimos a la aplicacion Terminal para realizar la conexion por SSH usando el usuario creado y la contraseña. Finalmente, se establece una conexion SSH entre el Host y la maquina virtual usando una interfaz de red en modo puente.
+
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotSSH.png)
+
+
 
 
 
