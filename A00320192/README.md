@@ -15,3 +15,5 @@
 3. Una vez finalizada la descarga, realizar la validación (MD5, SHA-1, SHA-256 o SHA-512) y comparar sus resultados
 
 Nota: Para esta validacion se uso el siguiente comando "md5 archivo.iso | grep valorMD5 " en el sistema operativo macOS High Sierra
+
+![alt text](https://raw.githubusercontent.com/JnCV17/all-exams/master/2018_a/so/exam1/A00320192/screenshots/ScreenshotValidacion.png)
