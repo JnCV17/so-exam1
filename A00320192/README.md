@@ -16,4 +16,4 @@
 
 Nota: Para esta validacion se uso el siguiente comando "md5 archivo.iso | grep valorMD5 " en el sistema operativo macOS High Sierra
 
-![alt text](https://raw.githubusercontent.com/JnCV17/all-exams/master/2018_a/so/exam1/A00320192/screenshots/ScreenshotValidacion.png)
+![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotValidacion.png)
