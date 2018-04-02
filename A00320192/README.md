@@ -6,6 +6,7 @@
 **Estudiante:** Juan Camilo Villada G.  
 **Código:** A00320192  
 **Correo:** jncvg17@hotmail.com
+**URL Repositorio:** https://github.com/JnCV17/so-exam1 
 
 ### Actividades
 
@@ -201,3 +202,16 @@ tig
 ![alt text](https://raw.githubusercontent.com/JnCV17/so-exam1/master/A00320192/screenshots/ScreenshotExport10.png)
 
 Nota: La maquina virtual se importo en un computador con sistema CentOS 7 del laboratorio Liason.
+
+**Comparacion Debian 9 y CentOS 7**
+
+OS | Debian 9 | CentOS7  
+--- | --- | ---  
+Modificaciones via | Backports | EPEL  
+Manejador de paquetes | 'apt-get' - 'aptitude' | 'yum'  
+Facilidad de instalación | Baja, presenta muchos más pasos que CentOS7 | Alta, mayor velocidad de instalacion y menos pasos
+Tipo de distribucion | Debian | RedHat  
+Algunas ventajas | Facilita enormemente la actualización a nuevas versiones de software | Ofrece mucha más estabilidad operacional a sus usuarios debido a que es un derivado de Red Hat Enterprise  
+Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado | Si el usuario es nuevo en linux y prefiere un entorno simple y sencillo lo mejor es iniciar usando este SO  
+Arquitecturas soportadas | alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc | alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc  
+Tamaño de ISO | El peso de la versión debian-9.4.0-amd64-netinst es de 291 MB | El peso de la versión de 64 bits minimal es de 792 MB 
