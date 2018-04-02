@@ -211,6 +211,6 @@ Modificaciones via | Backports | EPEL
 Manejador de paquetes | 'apt-get' - 'aptitude' | 'yum'  
 Facilidad de instalación | Baja, presenta muchos más pasos que CentOS7 | Alta, mayor velocidad de instalacion y menos pasos
 Tipo de distribucion | Debian | RedHat  
-Algunas ventajas | Facilita enormemente la actualización a nuevas versiones de software       Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado | Ofrece mucha más estabilidad operacional a sus usuarios debido a que es un derivado de Red Hat Enterprise            Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado
+Algunas ventajas | Facilita enormemente la actualización a nuevas versiones de software.                   -Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado | Ofrece mucha más estabilidad operacional a sus usuarios debido a que es un derivado de Red Hat Enterprise.                   -Si se busca un alto rendimiento en el apartado de procesamientos y calidad de audio y vídeo Debian es el indicado
 Arquitecturas soportadas | alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc | alpha, amd64, armel, hppa, i386, ia64, mips, mipsel, powerpc, s390, y sparc  
 Tamaño de ISO | El peso de la versión debian-9.4.0-amd64-netinst es de 291 MB | El peso de la versión de 64 bits minimal es de 792 MB 
